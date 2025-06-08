@@ -1,45 +1,27 @@
-const { Groq } = require("groq-sdk");
+const sanitize = (str) => str.replace(/[\r\n]+/g, ' ').trim();
 
-// Validate environment variable
-if (!process.env.GROQ_API_KEY) {
-  throw new Error("Missing GROQ_API_KEY environment variable");
-}
+const generatePrompt = (query, dataStr) => {
+  const cleanQuery = sanitize(query);
+  const cleanData = dataStr.trim();
 
-const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY,
-});
+  const prompt = `
+You are a helpful assistant in a chat app. Below is everything you know about yourself:
 
-// Configurable model
-const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
+---
+${cleanData}
+---
 
-const movieAi = async ({ character }) => {
-  // Validate input
-  if (!character || typeof character !== "string") {
-    throw new Error("Invalid character input");
-  }
+Only respond based on that information. If the answer isn’t in the knowledge base, reply: “I'm not sure about that.”
 
-  const prompt = `Write a character bio for ${character}. Include their profession, when they started, their breakout role, major achievements, recent work, and any awards. Keep it under 200 words and structured like a professional actor biography.`;
+Speak casually, like you're chatting with a friend. Always answer in the **first person**, as if you are the person or product described.
 
-  try {
-    const response = await groq.chat.completions.create({
-      model: MODEL_NAME,
-      messages: [
-        {
-          role: "user",
-          content: prompt,
-        },
-      ],
-      temperature: 1,
-      max_tokens: 1024,
-      top_p: 1,
-      stream: false,
-    });
+User: ${cleanQuery}  
+You:
+`.trim();
 
-    return response.choices[0]?.message?.content || "";
-  } catch (err) {
-    console.error("Groq API Error:", err.response?.data || err);
-    throw new Error(`callGroqAPI failed: ${err.message}`);
-  }
+  return prompt;
 };
 
-module.exports = movieAi;
+module.exports = {
+  generatePrompt,
+};
