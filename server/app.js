@@ -2,6 +2,10 @@ const express = require("express");
 const app = express();
 const userRoutes = require("./routes/userRoutes");
 const characterRoutes = require("./routes/characterRoutes");
+const cors = require("cors");
+
+// setupmiddleware
+app.use(cors());
 
 app.get("/", (req, res) => {
   return res.json({ message: "hello world" });
