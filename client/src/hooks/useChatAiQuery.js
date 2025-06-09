@@ -1,24 +1,15 @@
 import { useQuery } from "@tanstack/react-query";
 
-const getMessage = async (query) => {
-  try {
-    const res = await fetch(`/api/client?query=${query}`);
-
-    if (!res.ok) {
-      throw new Error("somethig went wrong");
-    }
-    const data = await res.json();
-    return data.message;
-  } catch (error) {
-    console.log(error.message);
-  }
+const getMessage = async () => {
+  const res = await fetch("/api/chat");
+  const data = await res.json();
+  return data;
 };
 
-const useChatAiQuery = (query) => {
+const useChatAiQuery = () => {
   return useQuery({
-    queryKey: ["message", query],
-    queryFn: () => getMessage(),
-    enabled: !!query,
+    queryKey: ["chat"],
+    queryFn: getMessage,
   });
 };
 

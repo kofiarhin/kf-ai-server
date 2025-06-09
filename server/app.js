@@ -17,8 +17,6 @@ app.get("/api/users", (req, res) => {
   return res.json({ message: apiKey });
 });
 
-app.use("/api/chat", clientRoutes);
-
 app.use("/api/character", characterRoutes);
 app.use("/api/chat", chatRoutes);
 

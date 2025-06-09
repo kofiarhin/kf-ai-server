@@ -1,5 +1,6 @@
 const { Groq } = require("groq-sdk");
 const data = require("../data/data.json");
+const kb = require("../data/kb.json");
 const { generatePrompt } = require("./helber");
 // Validate environment variable
 if (!process.env.GROQ_API_KEY) {
@@ -15,7 +16,8 @@ const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
 
 const chatAi = async (query) => {
   const dataStr = JSON.stringify(data);
-  const prompt = generatePrompt(query, dataStr);
+  const kbStr = JSON.stringify(kb);
+  const prompt = generatePrompt(query, kbStr);
 
   try {
     const response = await groq.chat.completions.create({

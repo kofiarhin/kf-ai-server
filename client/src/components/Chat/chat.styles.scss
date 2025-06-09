@@ -1,0 +1,48 @@
+#chat {
+  padding: 2rem;
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .message-wrapper {
+    min-height: 50vh;
+    margin-bottom: 2rem;
+    background-color: rgb(38, 63, 75);
+    padding: 2rem;
+  }
+  .form-wrapper {
+    form {
+      display: flex;
+      input {
+        flex: 1;
+        padding: 0.2rem 0rem;
+        text-indent: 20px;
+        outline: none;
+        border: none;
+      }
+      button {
+        padding: 0.5rem 3rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #chat {
+    padding: 1rem;
+    .message-wrapper {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+    .form-wrapper form {
+      button {
+        padding: 0.8rem;
+      }
+    }
+  }
+}

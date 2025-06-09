@@ -1,0 +1,84 @@
+{
+  "name": "Kofi Arhin",
+  "contact": {
+    "phone": "+44 7863793051",
+    "email": "kofiarhin69@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/joshua-obu-9b49b72b/",
+    "github": "https://github.com/kofiarhin",
+    "codepen": "http://codepen.io/esco69/",
+    "youtube": "https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA",
+    "website": "http://www.devkofi.com"
+  },
+  "education": [
+    {
+      "institution": "University of Ghana",
+      "degree": "BA in Computer Science & Economics",
+      "year": "2008"
+    },
+    {
+      "institution": "Ghana Secondary Technical School",
+      "certification": "Senior Secondary School Certificate Examination",
+      "year": "2003"
+    }
+  ],
+  "skills": {
+    "clientSide": ["HTML", "CSS", "JavaScript"],
+    "serverSide": ["Node.js"],
+    "frameworks": ["React.js", "React Native"],
+    "databases": ["MySQL", "MongoDB", "Firebase"],
+    "tools": ["SASS", "LESS", "Bootstrap"],
+    "versionControl": ["GitHub"],
+    "design": ["Adobe XD", "Photoshop", "Illustrator"]
+  },
+  "experience": [
+    {
+      "role": "Web Developer (Freelance)",
+      "duration": "January 2015 – Present",
+      "highlights": [
+        "Translating designs to frontend/backend code",
+        "Designing custom UI/UX apps",
+        "Writing maintainable, scalable, cross-browser code",
+        "Mentoring junior developers"
+      ]
+    },
+    {
+      "role": "Technical Support Representative – Vodafone",
+      "duration": "March 2012 – December 2014",
+      "highlights": [
+        "Remote tech support for end-users",
+        "Troubleshooting internet, email, IPTV, VOIP issues",
+        "Retaining customer satisfaction via alternative solutions"
+      ]
+    },
+    {
+      "role": "Network Administrator – Benyark Engineering Ltd",
+      "duration": "September 2010 – December 2012",
+      "highlights": [
+        "Windows Server and network installation",
+        "Data backup and disaster recovery",
+        "User account management and tech support"
+      ]
+    },
+    {
+      "role": "IT Support Officer – Benyark Engineering Ltd (National Service)",
+      "duration": "August 2009 – August 2010",
+      "highlights": [
+        "Peripheral device repair and software monitoring",
+        "User training and authentication",
+        "Documenting maintenance logs"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Mr. Frederick Sedor",
+      "position": "Supervisor, E-Services Ghana",
+      "contact": "0209292719"
+    },
+    {
+      "name": "Mr. Sandy Abrah",
+      "position": "Client Account Senior Developer, Microsoft",
+      "contact": "+12068996475"
+    }
+  ]
+}

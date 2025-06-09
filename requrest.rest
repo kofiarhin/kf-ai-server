@@ -5,5 +5,5 @@ POST http://localhost:5000/api/chat
 Content-Type: application/json
 
 {
-    "query": "what is y our name"
+    "query": "what can you tell me about mongodb?"
 }

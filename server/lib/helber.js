@@ -1,4 +1,5 @@
-const sanitize = (str) => str.replace(/[\r\n]+/g, ' ').trim();
+const kb = require("../data/kb.json");
+const sanitize = (str) => str.replace(/[\r\n]+/g, " ").trim();
 
 const generatePrompt = (query, dataStr) => {
   const cleanQuery = sanitize(query);
