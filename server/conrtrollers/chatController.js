@@ -7,12 +7,9 @@ const getMessage = async (req, res, next) => {
 };
 
 const createMessage = async (req, res) => {
-  const { query } = req.body;
-  let chatHistory = [];
-  console.log(query);
-  const response = await chatAi(query);
-  chatHistory.push({ query, response });
-  console.log(chatHistory.length);
+  const { query, context } = req.body;
+  console.log(query, context);
+  const response = await chatAi(query, context);
   return res.json({ message: response });
 };
 

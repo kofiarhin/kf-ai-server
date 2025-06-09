@@ -1,21 +1,28 @@
 #chat {
-  padding: 2rem;
   max-width: 100%;
+  height: 100vh;
+  background-color: orange;
+  position: relative;
   .message-wrapper {
-    min-height: 50vh;
-    margin-bottom: 2rem;
     background-color: rgb(38, 63, 75);
     padding: 2rem;
+    height: 100%;
+    font-size: 1.2rem;
     p {
       color: white;
     }
   }
   .form-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     form {
       display: flex;
       input {
         flex: 1;
-        padding: 0.2rem 0rem;
+        padding: 1rem 0rem;
+        font-size: 1.2rem;
         text-indent: 20px;
         outline: none;
         border: none;
@@ -29,26 +36,6 @@
         background-color: rgb(23, 170, 75);
         outline: none;
         border: none;
-      }
-    }
-  }
-}
-
-@media (max-width: 800px) {
-  #chat {
-    padding: 0rem;
-    .message-wrapper {
-      padding: 0rem 1rem;
-      margin-bottom: 1rem;
-      p {
-        font-size: 1rem;
-        line-height: 1.5;
-      }
-    }
-    .form-wrapper form {
-      padding: 1rem;
-      button {
-        padding: 0.8rem;
       }
     }
   }

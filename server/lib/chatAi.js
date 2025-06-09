@@ -14,10 +14,9 @@ const groq = new Groq({
 // Configurable model
 const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
 
-const chatAi = async (query) => {
-  const dataStr = JSON.stringify(data);
+const chatAi = async (query, context) => {
   const kbStr = JSON.stringify(kb);
-  const prompt = generatePrompt(query, kbStr);
+  const prompt = generatePrompt(query, kbStr, context);
 
   try {
     const response = await groq.chat.completions.create({

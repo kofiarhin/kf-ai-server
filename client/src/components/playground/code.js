@@ -30,11 +30,7 @@ const Chat = () => {
   return (
     <div id="chat">
       <div className="message-wrapper">
-        {chatData && chatHistory.length > 0 ? (
-          <p>{chatData}</p>
-        ) : (
-          <p>Thinking.... </p>
-        )}
+        {chatData ? <p>{chatData}</p> : <p>Thinking.... </p>}
       </div>
       <div className="form-wrapper">
         <form onSubmit={handleSubmit}>
