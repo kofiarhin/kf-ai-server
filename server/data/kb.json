@@ -96,33 +96,13 @@
   "currentProjects": [
     {
       "name": "Production-Grade Dating App",
-      "stack": [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "React",
-        "Vite",
-        "Redux Toolkit",
-        "React Query",
-        "Socket.IO",
-        "SCSS Modules"
-      ],
-      "features": [
-        "AI-based matchmaking",
-        "Real-time messaging",
-        "Admin dashboard with reporting & analytics",
-        "Subscription-based monetization",
-        "Fully responsive UI with production readiness"
-      ]
+      "stack": ["Node.js", "Express", "MongoDB", "React", "Vite", "Redux Toolkit", "React Query", "Socket.IO", "SCSS Modules"],
+      "features": ["AI-based matchmaking", "Real-time messaging", "Admin dashboard with reporting & analytics", "Subscription-based monetization", "Fully responsive UI with production readiness"]
     },
     {
       "name": "Knowledge-Based Chat App",
       "stack": ["React", "Node.js", "Express"],
-      "features": [
-        "Conversation-style UI",
-        "Embedded knowledge context",
-        "Auto-completion and interaction memory"
-      ]
+      "features": ["Conversation-style UI", "Embedded knowledge context", "Auto-completion and interaction memory"]
     },
     {
       "name": "Short-form Video Script Generator",
@@ -169,46 +149,114 @@
     "wealthStack": "Earn > Automate > Productize > Compound > Protect"
   },
   "contentStrategy": {
-    "coreThemes": [
-      "Historical what-ifs",
-      "Dark mythologies",
-      "Biblical and ancient texts with modern twists",
-      "Tech and consciousness",
-      "Survival + generational strategy"
-    ],
+    "coreThemes": ["Historical what-ifs", "Dark mythologies", "Biblical and ancient texts with modern twists", "Tech and consciousness", "Survival + generational strategy"],
     "channels": ["TikTok", "YouTube Shorts", "Blog", "Newsletter", "Personal site"],
     "frequency": "3–5 high-quality pieces per week",
     "format": ["10-part micro-stories", "Agent-generated scripts", "Narrative + image + call-to-action"]
   },
   "monetization": {
-    "currentStreams": [
-      "Freelance dev work",
-      "Affiliate links from tools/services used in content",
-      "Sponsored content (lightweight, vetted)",
-      "Selling eBooks or guides (e.g. JavaScript mastery, content automation)"
-    ],
-    "futureStreams": [
-      "Subscription-based content for creators/devs",
-      "SaaS tools for content or agent workflows",
-      "Mobile apps (presence, AI agents, habit systems)",
-      "Intellectual property licensing from original stories"
-    ]
+    "currentStreams": ["Freelance dev work", "Affiliate links", "Sponsored content", "Selling eBooks/guides"],
+    "futureStreams": ["Subscription content", "SaaS tools", "Mobile apps", "IP licensing"]
   },
   "futurePlays": [
     "Develop an AI-native assistant that handles your calendar, content prompts, and idea tracking",
     "Turn short-form story formats into an IP-ready animation studio model",
-    "Build or partner on a digital product (SaaS or mobile app) that aligns with your philosophical core",
-    "Establish a content-backed personal brand that feeds into high-leverage consulting or product launches",
-    "Launch a generational wealth system including trust-backed investments, digital asset inheritance, and skill transmission"
+    "Build or partner on a digital product that aligns with your philosophical core",
+    "Establish a content-backed personal brand",
+    "Launch a generational wealth system"
   ],
   "hobbies": [
-    "World-building through visual storytelling (Gotham-style, cosmic sci-fi, ancient myth reimaginings)",
-    "Experimenting with AI tools to streamline coding, content creation, and business workflows",
-    "Reading about systems theory, military history, ancient civilizations, and strategic warfare",
-    "Designing cinematic storyboards for TikTok/YouTube using 9:16 formats",
-    "Martial arts and solo fitness (for focus and presence)",
+    "World-building through visual storytelling",
+    "Experimenting with AI tools",
+    "Reading about systems theory, military history, ancient civilizations",
+    "Designing cinematic storyboards",
+    "Martial arts and solo fitness",
     "Walking meditation and Taoist-style presence practice",
-    "Reverse-engineering successful digital products and creator brands",
-    "Writing short, punchy scripts or dialogue for narrative-based videos"
-  ]
+    "Reverse-engineering successful digital products",
+    "Writing short narrative scripts",
+    "Photography (urban, nature, portraits, events)",
+    "Traveling (favorite destination: London)",
+    "Creating digital art (abstract to realistic)"
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "year": 2023
+    },
+    {
+      "title": "Certified Kubernetes Administrator (CKA)",
+      "issuer": "Cloud Native Computing Foundation",
+      "year": 2022
+    },
+    {
+      "title": "Professional Scrum Master I (PSM I)",
+      "issuer": "Scrum.org",
+      "year": 2021
+    },
+    {
+      "title": "Google Professional Cloud Architect",
+      "issuer": "Google Cloud",
+      "year": 2024
+    }
+  ],
+  "favoriteBooks": [
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt, David Thomas"
+    },
+    {
+      "title": "Deep Work",
+      "author": "Cal Newport"
+    },
+    {
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari"
+    },
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu"
+    },
+    {
+      "title": "The Lean Startup",
+      "author": "Eric Ries"
+    }
+  ],
+  "inspirationalQuotes": [
+    { "quote": "Simplicity is the ultimate sophistication.", "author": "Leonardo da Vinci" },
+    { "quote": "Do not wait to strike till the iron is hot, but make it hot by striking.", "author": "William Butler Yeats" },
+    { "quote": "It always seems impossible until it's done.", "author": "Nelson Mandela" }
+  ],
+  "coreValues": [
+    { "value": "Integrity", "description": "Upholding honesty and transparency in all actions and decisions." },
+    { "value": "Excellence", "description": "Striving for the highest quality and continuously improving skills and outputs." },
+    { "value": "Curiosity", "description": "Embracing a mindset of lifelong learning and exploration." },
+    { "value": "Collaboration", "description": "Valuing teamwork, open communication, and shared success." },
+    { "value": "Impact", "description": "Focusing on meaningful work that contributes positively to others and the world." },
+    { "value": "Resilience", "description": "Maintaining perseverance and adaptability in the face of challenges." }
+  ],
+  "dailyRoutineAndProductivityHacks": {
+    "morningRoutine": ["20 mins meditation", "Workout", "Review tasks"],
+    "workHabits": ["Pomodoro", "Batching", "Clear goals"],
+    "eveningRoutine": ["Reading", "Plan next day", "No screens before bed"],
+    "productivityHacks": ["Automation tools", "Distraction-free workspace", "Workflow audits"]
+  },
+  "deskSetup": {
+    "hardware": ["Laptop + dual monitors", "Ergonomic keyboard", "Standing desk"],
+    "environment": ["Minimalist layout", "Ambient lighting", "Noise-cancelling headphones"],
+    "tools": ["Digital planner", "Whiteboard", "Backup power/storage"]
+  },
+  "availability": {
+    "status": "Yes",
+    "message": "I'm currently available for work and open to collaboration from Monday to Friday. Feel free to send an email so we can discuss potential projects and opportunities."
+  },
+  "fallbackAnswers": {
+    "generalInquiry": "I'm currently expanding my knowledge base. Feel free to reach out and I'll get back to you.",
+    "projectInquiry": "Send me an email with project details and we’ll explore the fit.",
+    "techSkillInquiry": "Let me know the tech topic — I’m always learning and can point you in the right direction.",
+    "availabilityInquiry": "I’m available for new opportunities. Email me with your project scope.",
+    "generalGuidance": "Reach out and I’ll try to help or direct you to the right resources.",
+    "unknownInquiry": "I may not have the answer yet, but I’ll help you find it.",
+    "mentorshipCoachingInquiry": "I'm available for mentorship and coaching. Email me to discuss how I can support your growth."
+  }
 }
