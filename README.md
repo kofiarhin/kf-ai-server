@@ -7,6 +7,7 @@ Try out the live demo of the **KF AI Chat Server**:
 ---
 
 ## ⚙️ Features
+
 - Real-time AI chat interface
 - Streamed responses
 - Lightweight UI for quick testing
@@ -15,6 +16,7 @@ Try out the live demo of the **KF AI Chat Server**:
 ---
 
 ## 🔗 Tech Stack
+
 - **Backend:** Node.js, Express
 - **Frontend:** React
 - **Deployment:** Render
@@ -22,6 +24,7 @@ Try out the live demo of the **KF AI Chat Server**:
 ---
 
 ## 📌 Notes
+
 - Initial load may take a few seconds due to free-tier server cold starts.
 - Optimized for desktop experience.
 

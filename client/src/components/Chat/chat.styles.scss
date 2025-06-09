@@ -1,14 +1,14 @@
 #chat {
   padding: 2rem;
-  h1 {
-    font-size: 1.2rem;
-  }
-
+  max-width: 100%;
   .message-wrapper {
     min-height: 50vh;
     margin-bottom: 2rem;
     background-color: rgb(38, 63, 75);
     padding: 2rem;
+    p {
+      color: white;
+    }
   }
   .form-wrapper {
     form {
@@ -19,10 +19,16 @@
         text-indent: 20px;
         outline: none;
         border: none;
+        &::active {
+          border: none;
+        }
       }
       button {
         padding: 0.5rem 3rem;
         cursor: pointer;
+        background-color: rgb(23, 170, 75);
+        outline: none;
+        border: none;
       }
     }
   }
@@ -30,9 +36,9 @@
 
 @media (max-width: 800px) {
   #chat {
-    padding: 1rem;
+    padding: 0rem;
     .message-wrapper {
-      padding: 1rem;
+      padding: 0rem 1rem;
       margin-bottom: 1rem;
       p {
         font-size: 1rem;
@@ -40,6 +46,7 @@
       }
     }
     .form-wrapper form {
+      padding: 1rem;
       button {
         padding: 0.8rem;
       }
