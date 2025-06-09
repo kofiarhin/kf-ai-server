@@ -1,7 +1,11 @@
 import { useMutation } from "@tanstack/react-query";
+import { BASE_URL, DEV_ENV } from "../lib/constants";
 
 const sendMessage = async (query) => {
-  const res = await fetch("/api/chat", {
+  const prodUrl = `${BASE_URL}/api/chat`;
+  const devUrl = "/api/chat";
+  const url = DEV_ENV === "development" ? devUrl : prodUrl;
+  const res = await fetch(url, {
     headers: {
       "Content-Type": "application/json",
     },
