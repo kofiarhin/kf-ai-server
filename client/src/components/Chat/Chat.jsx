@@ -6,7 +6,7 @@ import useChatMutation from "../../hooks/useChatMutation";
 const Chat = () => {
   const [inputMessage, setInputMessage] = useState("");
   const { data: welcomeData, isLoading: welcomeIsLoading } = useChatAiQuery();
-  const { mutate, data: chatData } = useChatMutation();
+  const { mutate, data: chatData, isLoading } = useChatMutation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,7 +21,9 @@ const Chat = () => {
 
   return (
     <div id="chat">
-      <div className="message-wrapper">{chatData && <p>{chatData}</p>}</div>
+      <div className="message-wrapper">
+        {chatData ? <p>{chatData}</p> : <p>Thinking.... </p>}
+      </div>
       <div className="form-wrapper">
         <form onSubmit={handleSubmit}>
           <input
