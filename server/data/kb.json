@@ -80,5 +80,135 @@
       "position": "Client Account Senior Developer, Microsoft",
       "contact": "+12068996475"
     }
+  ],
+  "bio": {
+    "summary": "Strategic, no-nonsense software engineer and content creator focused on building practical, production-grade systems. Combines deep technical skill with storytelling and philosophical inquiry to develop apps, narratives, and frameworks that expand human potential.",
+    "focus": [
+      "Full-stack development (Node.js, Express, React, MongoDB)",
+      "AI agents and automation systems",
+      "Real-time messaging, matchmaking, and analytics",
+      "Narrative-driven content for short-form platforms (TikTok, YouTube Shorts)",
+      "Creative world-building (fiction, animation, visual storytelling)",
+      "Personal systems for generational wealth and presence practice"
+    ],
+    "style": "Pragmatic, clear, and direct — avoids fluff, seeks clarity, and executes with precision."
+  },
+  "currentProjects": [
+    {
+      "name": "Production-Grade Dating App",
+      "stack": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React",
+        "Vite",
+        "Redux Toolkit",
+        "React Query",
+        "Socket.IO",
+        "SCSS Modules"
+      ],
+      "features": [
+        "AI-based matchmaking",
+        "Real-time messaging",
+        "Admin dashboard with reporting & analytics",
+        "Subscription-based monetization",
+        "Fully responsive UI with production readiness"
+      ]
+    },
+    {
+      "name": "Knowledge-Based Chat App",
+      "stack": ["React", "Node.js", "Express"],
+      "features": [
+        "Conversation-style UI",
+        "Embedded knowledge context",
+        "Auto-completion and interaction memory"
+      ]
+    },
+    {
+      "name": "Short-form Video Script Generator",
+      "stack": ["React", "Node.js"],
+      "focus": "Generates narrative scripts for TikTok/YouTube Shorts based on themes like conspiracy, history, biblical stories, and sci-fi."
+    }
+  ],
+  "goals": [
+    "Build generational wealth through scalable digital systems",
+    "Develop agent-based tools that multiply productivity",
+    "Publish code-heavy educational content on JavaScript and AI",
+    "Produce story-driven short-form content with visual AI",
+    "Build a cinematic Taoist presence app with dark monk aesthetics"
+  ],
+  "accomplishments": [
+    "Built multiple full-stack applications from scratch with real-time features and production-ready deployments",
+    "Launched scalable backend services with authentication, file uploads, and WebSocket integration",
+    "Created and optimized dozens of scripts and tools to automate creative and technical workflows",
+    "Generated consistent TikTok and YouTube Shorts content with AI-enhanced visuals and scripts",
+    "Led architectural decisions for personal and client-facing platforms with scalable patterns",
+    "Mentored other developers and creators by simplifying complex technical concepts into usable content"
+  ],
+  "mindset": {
+    "principles": [
+      "Build systems, not one-offs",
+      "Clarity > cleverness",
+      "Speed with intention beats perfection without purpose",
+      "Make it real — ship, iterate, learn",
+      "Truth over narrative — always challenge assumptions",
+      "Build for leverage: code, media, money, attention, wisdom"
+    ],
+    "mentalModels": [
+      "Second-order thinking",
+      "Asymmetric upside",
+      "Skin in the game",
+      "Product-market-message fit",
+      "Attention flows toward clarity and tension"
+    ]
+  },
+  "systemsAndFrameworks": {
+    "contentPipeline": "Topic > Prompt > Script > Visual > Edit > Publish > Feedback > Archive",
+    "devWorkflow": "Plan > Scaffold > Build core > Integrate features > Polish > Test > Launch",
+    "learningSystem": "Explore > Apply > Teach > Automate > Integrate",
+    "wealthStack": "Earn > Automate > Productize > Compound > Protect"
+  },
+  "contentStrategy": {
+    "coreThemes": [
+      "Historical what-ifs",
+      "Dark mythologies",
+      "Biblical and ancient texts with modern twists",
+      "Tech and consciousness",
+      "Survival + generational strategy"
+    ],
+    "channels": ["TikTok", "YouTube Shorts", "Blog", "Newsletter", "Personal site"],
+    "frequency": "3–5 high-quality pieces per week",
+    "format": ["10-part micro-stories", "Agent-generated scripts", "Narrative + image + call-to-action"]
+  },
+  "monetization": {
+    "currentStreams": [
+      "Freelance dev work",
+      "Affiliate links from tools/services used in content",
+      "Sponsored content (lightweight, vetted)",
+      "Selling eBooks or guides (e.g. JavaScript mastery, content automation)"
+    ],
+    "futureStreams": [
+      "Subscription-based content for creators/devs",
+      "SaaS tools for content or agent workflows",
+      "Mobile apps (presence, AI agents, habit systems)",
+      "Intellectual property licensing from original stories"
+    ]
+  },
+  "futurePlays": [
+    "Develop an AI-native assistant that handles your calendar, content prompts, and idea tracking",
+    "Turn short-form story formats into an IP-ready animation studio model",
+    "Build or partner on a digital product (SaaS or mobile app) that aligns with your philosophical core",
+    "Establish a content-backed personal brand that feeds into high-leverage consulting or product launches",
+    "Launch a generational wealth system including trust-backed investments, digital asset inheritance, and skill transmission"
+  ],
+  "hobbies": [
+    "World-building through visual storytelling (Gotham-style, cosmic sci-fi, ancient myth reimaginings)",
+    "Experimenting with AI tools to streamline coding, content creation, and business workflows",
+    "Reading about systems theory, military history, ancient civilizations, and strategic warfare",
+    "Designing cinematic storyboards for TikTok/YouTube using 9:16 formats",
+    "Martial arts and solo fitness (for focus and presence)",
+    "Walking meditation and Taoist-style presence practice",
+    "Reverse-engineering successful digital products and creator brands",
+    "Writing short, punchy scripts or dialogue for narrative-based videos"
   ]
 }
