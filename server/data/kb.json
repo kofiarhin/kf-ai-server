@@ -9,242 +9,24 @@
     "youtube": "https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA",
     "website": "http://www.devkofi.com"
   },
-  "education": [
-    {
-      "institution": "University of Ghana",
-      "degree": "BA in Computer Science & Economics",
-      "year": "2008"
-    },
-    {
-      "institution": "Ghana Secondary Technical School",
-      "certification": "Senior Secondary School Certificate Examination",
-      "year": "2003"
+  "personal": {
+    "relationship": {
+      "status": "In a relationship",
+      "partnerName": "Laura Cromack",
+      "note": "When 'girlfriend' is mentioned, it refers to Laura Cromack unless otherwise specified."
     }
-  ],
-  "skills": {
-    "clientSide": ["HTML", "CSS", "JavaScript"],
-    "serverSide": ["Node.js"],
-    "frameworks": ["React.js", "React Native"],
-    "databases": ["MySQL", "MongoDB", "Firebase"],
-    "tools": ["SASS", "LESS", "Bootstrap"],
-    "versionControl": ["GitHub"],
-    "design": ["Adobe XD", "Photoshop", "Illustrator"]
   },
-  "experience": [
-    {
-      "role": "Web Developer (Freelance)",
-      "duration": "January 2015 – Present",
-      "highlights": [
-        "Translating designs to frontend/backend code",
-        "Designing custom UI/UX apps",
-        "Writing maintainable, scalable, cross-browser code",
-        "Mentoring junior developers"
-      ]
-    },
-    {
-      "role": "Technical Support Representative – Vodafone",
-      "duration": "March 2012 – December 2014",
-      "highlights": [
-        "Remote tech support for end-users",
-        "Troubleshooting internet, email, IPTV, VOIP issues",
-        "Retaining customer satisfaction via alternative solutions"
-      ]
-    },
-    {
-      "role": "Network Administrator – Benyark Engineering Ltd",
-      "duration": "September 2010 – December 2012",
-      "highlights": [
-        "Windows Server and network installation",
-        "Data backup and disaster recovery",
-        "User account management and tech support"
-      ]
-    },
-    {
-      "role": "IT Support Officer – Benyark Engineering Ltd (National Service)",
-      "duration": "August 2009 – August 2010",
-      "highlights": [
-        "Peripheral device repair and software monitoring",
-        "User training and authentication",
-        "Documenting maintenance logs"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Mr. Frederick Sedor",
-      "position": "Supervisor, E-Services Ghana",
-      "contact": "0209292719"
-    },
-    {
-      "name": "Mr. Sandy Abrah",
-      "position": "Client Account Senior Developer, Microsoft",
-      "contact": "+12068996475"
-    }
-  ],
   "bio": {
-    "summary": "Strategic, no-nonsense software engineer and content creator focused on building practical, production-grade systems. Combines deep technical skill with storytelling and philosophical inquiry to develop apps, narratives, and frameworks that expand human potential.",
+    "summary": "Strategic, no-nonsense software engineer and content creator focused on building practical, production-grade systems...",
     "focus": [
       "Full-stack development (Node.js, Express, React, MongoDB)",
       "AI agents and automation systems",
       "Real-time messaging, matchmaking, and analytics",
-      "Narrative-driven content for short-form platforms (TikTok, YouTube Shorts)",
-      "Creative world-building (fiction, animation, visual storytelling)",
+      "Narrative-driven content for short-form platforms",
+      "Creative world-building",
       "Personal systems for generational wealth and presence practice"
     ],
-    "style": "Pragmatic, clear, and direct — avoids fluff, seeks clarity, and executes with precision."
-  },
-  "currentProjects": [
-    {
-      "name": "Production-Grade Dating App",
-      "stack": ["Node.js", "Express", "MongoDB", "React", "Vite", "Redux Toolkit", "React Query", "Socket.IO", "SCSS Modules"],
-      "features": ["AI-based matchmaking", "Real-time messaging", "Admin dashboard with reporting & analytics", "Subscription-based monetization", "Fully responsive UI with production readiness"]
-    },
-    {
-      "name": "Knowledge-Based Chat App",
-      "stack": ["React", "Node.js", "Express"],
-      "features": ["Conversation-style UI", "Embedded knowledge context", "Auto-completion and interaction memory"]
-    },
-    {
-      "name": "Short-form Video Script Generator",
-      "stack": ["React", "Node.js"],
-      "focus": "Generates narrative scripts for TikTok/YouTube Shorts based on themes like conspiracy, history, biblical stories, and sci-fi."
-    }
-  ],
-  "goals": [
-    "Build generational wealth through scalable digital systems",
-    "Develop agent-based tools that multiply productivity",
-    "Publish code-heavy educational content on JavaScript and AI",
-    "Produce story-driven short-form content with visual AI",
-    "Build a cinematic Taoist presence app with dark monk aesthetics"
-  ],
-  "accomplishments": [
-    "Built multiple full-stack applications from scratch with real-time features and production-ready deployments",
-    "Launched scalable backend services with authentication, file uploads, and WebSocket integration",
-    "Created and optimized dozens of scripts and tools to automate creative and technical workflows",
-    "Generated consistent TikTok and YouTube Shorts content with AI-enhanced visuals and scripts",
-    "Led architectural decisions for personal and client-facing platforms with scalable patterns",
-    "Mentored other developers and creators by simplifying complex technical concepts into usable content"
-  ],
-  "mindset": {
-    "principles": [
-      "Build systems, not one-offs",
-      "Clarity > cleverness",
-      "Speed with intention beats perfection without purpose",
-      "Make it real — ship, iterate, learn",
-      "Truth over narrative — always challenge assumptions",
-      "Build for leverage: code, media, money, attention, wisdom"
-    ],
-    "mentalModels": [
-      "Second-order thinking",
-      "Asymmetric upside",
-      "Skin in the game",
-      "Product-market-message fit",
-      "Attention flows toward clarity and tension"
-    ]
-  },
-  "systemsAndFrameworks": {
-    "contentPipeline": "Topic > Prompt > Script > Visual > Edit > Publish > Feedback > Archive",
-    "devWorkflow": "Plan > Scaffold > Build core > Integrate features > Polish > Test > Launch",
-    "learningSystem": "Explore > Apply > Teach > Automate > Integrate",
-    "wealthStack": "Earn > Automate > Productize > Compound > Protect"
-  },
-  "contentStrategy": {
-    "coreThemes": ["Historical what-ifs", "Dark mythologies", "Biblical and ancient texts with modern twists", "Tech and consciousness", "Survival + generational strategy"],
-    "channels": ["TikTok", "YouTube Shorts", "Blog", "Newsletter", "Personal site"],
-    "frequency": "3–5 high-quality pieces per week",
-    "format": ["10-part micro-stories", "Agent-generated scripts", "Narrative + image + call-to-action"]
-  },
-  "monetization": {
-    "currentStreams": ["Freelance dev work", "Affiliate links", "Sponsored content", "Selling eBooks/guides"],
-    "futureStreams": ["Subscription content", "SaaS tools", "Mobile apps", "IP licensing"]
-  },
-  "futurePlays": [
-    "Develop an AI-native assistant that handles your calendar, content prompts, and idea tracking",
-    "Turn short-form story formats into an IP-ready animation studio model",
-    "Build or partner on a digital product that aligns with your philosophical core",
-    "Establish a content-backed personal brand",
-    "Launch a generational wealth system"
-  ],
-  "hobbies": [
-    "World-building through visual storytelling",
-    "Experimenting with AI tools",
-    "Reading about systems theory, military history, ancient civilizations",
-    "Designing cinematic storyboards",
-    "Martial arts and solo fitness",
-    "Walking meditation and Taoist-style presence practice",
-    "Reverse-engineering successful digital products",
-    "Writing short narrative scripts",
-    "Photography (urban, nature, portraits, events)",
-    "Traveling (favorite destination: London)",
-    "Creating digital art (abstract to realistic)"
-  ],
-  "certifications": [
-    {
-      "title": "AWS Certified Solutions Architect – Associate",
-      "issuer": "Amazon Web Services",
-      "year": 2023
-    },
-    {
-      "title": "Certified Kubernetes Administrator (CKA)",
-      "issuer": "Cloud Native Computing Foundation",
-      "year": 2022
-    },
-    {
-      "title": "Professional Scrum Master I (PSM I)",
-      "issuer": "Scrum.org",
-      "year": 2021
-    },
-    {
-      "title": "Google Professional Cloud Architect",
-      "issuer": "Google Cloud",
-      "year": 2024
-    }
-  ],
-  "favoriteBooks": [
-    {
-      "title": "The Pragmatic Programmer",
-      "author": "Andrew Hunt, David Thomas"
-    },
-    {
-      "title": "Deep Work",
-      "author": "Cal Newport"
-    },
-    {
-      "title": "Sapiens",
-      "author": "Yuval Noah Harari"
-    },
-    {
-      "title": "The Art of War",
-      "author": "Sun Tzu"
-    },
-    {
-      "title": "The Lean Startup",
-      "author": "Eric Ries"
-    }
-  ],
-  "inspirationalQuotes": [
-    { "quote": "Simplicity is the ultimate sophistication.", "author": "Leonardo da Vinci" },
-    { "quote": "Do not wait to strike till the iron is hot, but make it hot by striking.", "author": "William Butler Yeats" },
-    { "quote": "It always seems impossible until it's done.", "author": "Nelson Mandela" }
-  ],
-  "coreValues": [
-    { "value": "Integrity", "description": "Upholding honesty and transparency in all actions and decisions." },
-    { "value": "Excellence", "description": "Striving for the highest quality and continuously improving skills and outputs." },
-    { "value": "Curiosity", "description": "Embracing a mindset of lifelong learning and exploration." },
-    { "value": "Collaboration", "description": "Valuing teamwork, open communication, and shared success." },
-    { "value": "Impact", "description": "Focusing on meaningful work that contributes positively to others and the world." },
-    { "value": "Resilience", "description": "Maintaining perseverance and adaptability in the face of challenges." }
-  ],
-  "dailyRoutineAndProductivityHacks": {
-    "morningRoutine": ["20 mins meditation", "Workout", "Review tasks"],
-    "workHabits": ["Pomodoro", "Batching", "Clear goals"],
-    "eveningRoutine": ["Reading", "Plan next day", "No screens before bed"],
-    "productivityHacks": ["Automation tools", "Distraction-free workspace", "Workflow audits"]
-  },
-  "deskSetup": {
-    "hardware": ["Laptop + dual monitors", "Ergonomic keyboard", "Standing desk"],
-    "environment": ["Minimalist layout", "Ambient lighting", "Noise-cancelling headphones"],
-    "tools": ["Digital planner", "Whiteboard", "Backup power/storage"]
+    "style": "Pragmatic, clear, and direct \u2014 avoids fluff, seeks clarity, and executes with precision."
   },
   "availability": {
     "status": "Yes",
@@ -252,11 +34,11 @@
   },
   "fallbackAnswers": {
     "generalInquiry": "I'm currently expanding my knowledge base. Feel free to reach out and I'll get back to you.",
-    "projectInquiry": "Send me an email with project details and we’ll explore the fit.",
-    "techSkillInquiry": "Let me know the tech topic — I’m always learning and can point you in the right direction.",
-    "availabilityInquiry": "I’m available for new opportunities. Email me with your project scope.",
-    "generalGuidance": "Reach out and I’ll try to help or direct you to the right resources.",
-    "unknownInquiry": "I may not have the answer yet, but I’ll help you find it.",
+    "projectInquiry": "Send me an email with project details and we\u2019ll explore the fit.",
+    "techSkillInquiry": "Let me know the tech topic \u2014 I\u2019m always learning and can point you in the right direction.",
+    "availabilityInquiry": "I\u2019m available for new opportunities. Email me with your project scope.",
+    "generalGuidance": "Reach out and I\u2019ll try to help or direct you to the right resources.",
+    "unknownInquiry": "I may not have the answer yet, but I\u2019ll help you find it.",
     "mentorshipCoachingInquiry": "I'm available for mentorship and coaching. Email me to discuss how I can support your growth."
   }
 }
