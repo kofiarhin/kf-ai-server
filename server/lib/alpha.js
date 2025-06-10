@@ -12,22 +12,11 @@ const groq = new Groq({
 // Configurable model
 const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
 
-const baseAi = async () => {
-  const prompt = `
-Create a 5-question multiple-choice quiz about React.
-
-Each question must be in strict JSON format:
-[
-  {
-    "question": "string",
-    "options": ["string", "string", "string", "string"],
-    "answer": "string",
-    "explanation": "string"
-  }
-]
-
-Do not include any extra text, headers, markdown, or comments. Only return a pure JSON array.
-`;
+const alpha = async () => {
+  const prompt = `Create a 5-question multiple-choice quiz about react
+Each question must have 4 options and clearly marked correct answers.
+Include an explanation for each answer.
+Output JSON format.`;
 
   try {
     const response = await groq.chat.completions.create({
@@ -44,22 +33,11 @@ Do not include any extra text, headers, markdown, or comments. Only return a pur
       stream: false,
     });
 
-    let raw = response.choices[0]?.message?.content?.trim();
-
-    // Clean up markdown formatting if present
-    if (raw.startsWith("```json")) {
-      raw = raw
-        .replace(/^```json/, "")
-        .replace(/```$/, "")
-        .trim();
-    }
-
-    const parsed = JSON.parse(raw);
-    return parsed;
+    return response.choices[0]?.message?.content || "";
   } catch (err) {
     console.error("Groq API Error:", err.response?.data || err);
     throw new Error(`callGroqAPI failed: ${err.message}`);
   }
 };
 
-module.exports = baseAi;
+module.exports = alpha;
