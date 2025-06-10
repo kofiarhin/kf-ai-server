@@ -9,17 +9,24 @@ const groq = new Groq({
   apiKey: process.env.GROQ_API_KEY,
 });
 
-// Configurable model
 const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
 
-const movieAi = async ({ character }) => {
-  console.log(character);
-  // Validate input
-  if (!character || typeof character !== "string") {
-    throw new Error("Invalid character input");
-  }
+const quizAi = async () => {
+  const prompt = `
+Create a 5-question multiple-choice quiz about React.
 
-  const prompt = `Write a character bio for ${character}. Include their profession, when they started, their breakout role, major achievements, recent work, and any awards. Keep it under 200 words and structured like a professional actor biography.`;
+Each question must be in strict JSON format:
+[
+  {
+    "question": "string",
+    "options": ["string", "string", "string", "string"],
+    "answer": "string",
+    "explanation": "string"
+  }
+]
+
+Do not include any extra text, headers, markdown, or comments. Only return a pure JSON array.
+`;
 
   try {
     const response = await groq.chat.completions.create({
@@ -36,11 +43,22 @@ const movieAi = async ({ character }) => {
       stream: false,
     });
 
-    return response.choices[0]?.message?.content || "";
+    let raw = response.choices[0]?.message?.content?.trim();
+
+    // Clean up markdown formatting if present
+    if (raw.startsWith("```json")) {
+      raw = raw
+        .replace(/^```json/, "")
+        .replace(/```$/, "")
+        .trim();
+    }
+
+    const parsed = JSON.parse(raw);
+    return parsed;
   } catch (err) {
     console.error("Groq API Error:", err.response?.data || err);
-    throw new Error(`callGroqAPI failed: ${err.message}`);
+    throw new Error(`quizAi failed: ${err.message}`);
   }
 };
 
-module.exports = movieAi;
+module.exports = quizAi;

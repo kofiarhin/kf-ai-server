@@ -13,9 +13,10 @@ const groq = new Groq({
 const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
 
 const baseAi = async () => {
-  const prompt = `
-I am an AI web app generator. Stack: React, Node.js, Express, MongoDB. Input your app specs. I will build. No errors. No fluff. Just code.
-`;
+  const prompt = `Create a 5-question multiple-choice quiz about react
+Each question must have 4 options and clearly marked correct answers.
+Include an explanation for each answer.
+Output JSON format.`;
 
   try {
     const response = await groq.chat.completions.create({
