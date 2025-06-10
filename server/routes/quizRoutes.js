@@ -1,5 +1,5 @@
-const quizAi = require("../lib/quizAi");
 const { Router } = require("express");
+const quizAi = require("../lib/quizAi");
 
 const router = Router();
 
