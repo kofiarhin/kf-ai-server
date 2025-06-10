@@ -2,7 +2,12 @@
 
 Try out the live demo of the **KF AI Chat Server**:
 
-👉 [Click here to launch the demo](https://kf-ai-server-chat.onrender.com/)
+render backend [Click here to launch the demo](https://kf-ai-server.onrender.com/)
+vercel frontend [Click here to launch the demo](https://ai-assistant-six-gray.vercel.app/)
+
+## Foutes
+
+/api/quiz render backend [Click here to launch the demo](https://kf-ai-server.onrender.com/api/quiz)
 
 ---
 
