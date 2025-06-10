@@ -1,5 +1,4 @@
 const { Router } = require("express");
-const quizAi = require("../lib/quizAi");
 const baseAi = require("../lib/baseAi");
 
 const router = Router();
