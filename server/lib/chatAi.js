@@ -17,10 +17,10 @@ const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
 
 const chatAi = async (query, context) => {
   const kbStr = JSON.stringify(kb);
+  const chunk = getRelevantChunk(query, kb, 20);
+  const chunkStr = JSON.stringify(chunk);
   const prompt = generatePrompt(query, kbStr, context);
-  const chunk = getRelevantChunk(query, kb, 3);
-  console.log(chunk);
-
+  console.log(prompt);
   try {
     const response = await groq.chat.completions.create({
       model: MODEL_NAME,

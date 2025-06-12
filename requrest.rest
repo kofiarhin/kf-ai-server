@@ -1,13 +1,21 @@
 GET http://localhost:5000/api/character/brucelee
 
+
+
+
+###
+GET http://localhost:5000/api/quiz
+
 ###
 POST http://localhost:5000/api/chat
 Content-Type: application/json
 
 {
-    "query": "what is your email address?",
+  "query": "what is your email address",
+  "context": [
+    {
+      "user": "what tech stack are you learning now",
+      "system": "node js, react, mongobd"
+    }
+  ]
 }
-
-
-###
-GET http://localhost:5000/api/quiz
