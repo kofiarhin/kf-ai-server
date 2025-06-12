@@ -5,7 +5,6 @@ const router = Router();
 
 // get welcome message
 router.get("/", async (req, res) => {
-  console.log("xxxxxx", "we are here");
   return res.json({ message: "Welcome to my boss man!" });
 });
 
