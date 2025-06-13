@@ -11,11 +11,36 @@ POST http://localhost:5000/api/chat
 Content-Type: application/json
 
 {
-  "query": "what is your email address",
+  "query": "that is not nice",
   "context": [
     {
       "user": "what tech stack are you learning now",
       "system": "node js, react, mongobd"
+    },
+    {
+      "user": "what movies do you enjoy",
+      "system": "no of your business"
     }
   ]
+}
+
+
+#generate image
+###
+POST http://localhost:5000/api/generate-image
+Content-Type: application/json
+
+{
+  "prompt": "A cat sitting on a windowsill on a sunny day"
+
+}
+
+
+#get quiz for movies
+###
+POST  http://localhost:5000/api/movie-quiz
+Content-Type: application/json
+
+{
+  "movie": "davinci"
 }

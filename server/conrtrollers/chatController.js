@@ -2,7 +2,6 @@ const chatAi = require("../lib/chatAi");
 
 const getMessage = async (req, res, next) => {
   const { query } = req.query;
-  console.log(query);
   return res.json({ message: "get message" });
 };
 
